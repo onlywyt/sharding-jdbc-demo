@@ -14,6 +14,11 @@ import java.util.Map;
 import java.util.Properties;
 
 public class ShardingConfig {
+    /**
+     * 添加个注释，为啥git没有数据呢？
+     * @return
+     * @throws SQLException
+     */
     public DataSource getShardingDataSource() throws SQLException {
         // Configure actual data sources
         Map<String, DataSource> dataSourceMap = new HashMap<>();
